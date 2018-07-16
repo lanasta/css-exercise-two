@@ -1,10 +1,30 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #C1E7E6;
+  color: #000000;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+figcaption{
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+h1{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 18px;
+}
+
+p{
+  margin: 10px 0;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: #000000;
   float: left;
   position: fixed;
   width: 100%;
@@ -49,4 +69,23 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover{
+  color: #C1E7E6;
+  font-weight: bold;
+}
+
+.author{
+  font-style: italic;
+  font-weight: bold;
+}
+
+.story-text{
+  margin-top: 20px;
 }
